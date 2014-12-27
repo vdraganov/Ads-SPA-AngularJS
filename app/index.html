@@ -10,9 +10,11 @@
 
 	
 </head>
-<body>
+<body ng-app="AddsAppModule" ng-controller='AddsAppController'>
 
-	<div id="wrapper">
+	<div id="wrapper-page">
+
+	{{name}}
 <!-- 		<div id="profileTitle">
 			<strong> TIGER </strong>
 		</div>
@@ -28,11 +30,17 @@
     	</div> -->
     </div>
 
+    
+
     <!-- Loading jQuery and BootstrapJS-->
 	<script type="text/javascript" src="scripts/libs/jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src="styles/bootstrap/js/bootstrap.min.js"></script>
 
 	<!-- Loading AngularJS, modules, servieces and controllers -->
-	<script type="text/javascript" src="scripts/libs/angular.js"></script>
+	<script type="text/javascript" src="scripts/libs/angular/angular.js"></script>
+	<script type="text/javascript" src="scripts/libs/angular/angular-route.js"></script>
+	<script type="text/javascript" src="scripts/ad(d)s-app.js"></script>
+	<script type="text/javascript" src="scripts/controllers/controller-main.js"></script>
+
 </body>
 </html>
