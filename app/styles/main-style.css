@@ -1,5 +1,5 @@
 /*reset*/
-html, body, header, h1, ul, li, textarea, span, div, a, input, button{
+html, body, header, h1, ul, li, textarea, span, div, a, input, button, label {
     margin: 0;
     padding: 0;
 }
@@ -8,7 +8,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-size: 14px;
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Open Sans", Times, serif;
 	color: #605B5B;
 	background-color: #FFFFFF;
 }
@@ -33,14 +33,44 @@ div[id^="box-"] {
 	background-color: #FFFFFF;
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
-	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+	box-shadow: inset 0px 0px 50px rgba(0,0,0,0.5);
 }
 
 #box-login {
 	float: left;
 	margin-left: 2%; 
-	width: 76%;
+	width: 76.5%;
 	height: 40px;
+}
+
+.field-input {
+	margin: 1% 0 0 1%;
+	display: inline-block;
+	width: 41.7%;
+	height: 20px;
+}
+
+label {
+	vertical-align: middle;
+
+}
+
+#input-login-username, #input-login-password {
+	vertical-align: middle;
+	height: 90%;
+	width: 65%;
+}
+
+#btn-login {	
+	margin: auto 1.7% 0 auto;
+	height: 100%;
+	float: right;
+}
+
+#btn-login img{	
+	margin: 17% auto;
+	width: auto;
+	height: 67.5%;
 }
 
 #box-homeScreen {
@@ -52,8 +82,8 @@ div[id^="box-"] {
 
 #container-logo {
 	float: left;
-	margin-left: 2%;
-	width: 76%;
+	margin-left: 10%;
+	width: 68%;
 	height: 130px;
 }
 
